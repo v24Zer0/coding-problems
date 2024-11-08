@@ -28,7 +28,7 @@ public class Solution {
             boolean isRightVowel = vowels.contains(sAsChar[right]);
             boolean isLeftVowel = vowels.contains(sAsChar[left]);
 
-            if(isLeftVowel & isRightVowel) {
+            if(isLeftVowel && isRightVowel) {
                 char temp = sAsChar[left];
                 sAsChar[left] = sAsChar[right];
                 sAsChar[right] = temp;
