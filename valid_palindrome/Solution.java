@@ -10,7 +10,7 @@ public class Solution {
         StringBuilder sb = new StringBuilder();
 
         for(char c : s.toCharArray()) {
-            if(Character.isLetterOrDigit(c))    
+            if(Character.isLetterOrDigit(c))
                 sb.append(Character.toLowerCase(c));
         }
 
